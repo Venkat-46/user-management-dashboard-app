@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header-left {
+  font-size: 1.5rem;
+}
+.button{
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+.add-user-btn {
+  background-color: #3b82f6;
+}
+
+.add-user-btn:hover {
+  background-color: #2563eb;
+}
+.view-users{
+  margin-right: 12px;
+  color:black;
+  background-color: lightyellow;
+}
+
+@media  screen and (max-width:767px){
+.button{
+  padding: 5px 10px;
+}
+} 
